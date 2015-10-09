@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<title>生命传奇·霸业1.0.1</title>
+	<script src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	
+</head>
+
+<body>
+	<canvas id = 'mapCanvas' class = 'map' style = "display : none">
+	</canvas>
+	<div id = 'datatitle' class = 'data' style = "display : none">创造霸业</div>
+	<div id = 'rowtext' class = 'data' style = "display : none">地图规模(2~200)</div>
+	<input id = 'row' class = 'data' value = '16' style = "display : none"></input>
+	<div id = 'ftptext' class = 'data' style = "display : none">每秒帧数(1~60)</div>
+	<input id = 'ftp' class = 'data' value = '10' style = "display : none"></input>
+	<div id = 'probtext' class = 'data' style = "display : none">生物密度(0~1)</div>
+	<input id = 'prob' class = 'data' value = '0.5' style = "display : none"></input>
+	<div id = 'new_envolve' class = 'button' style = "display : none">开始霸业</div>
+	<div id = 're_envolve' class = 'button' style = "display : none">卷土重来</div>
+	<div id = 'envolve' class = 'button' style = "display : none">霸业传承</div>
+	<div id = 'auto_envolve' class = 'button' style = "display : none">自动传承</div>
+	<div id = 'stop_envolve' class = 'button' style = "display : none">停止传承</div>
+	<div id = 'count'></div>
+	<script src="js/game.js"></script>
+	<script src="js/draw.js"></script>
+</body>
